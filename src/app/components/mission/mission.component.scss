@@ -1,0 +1,36 @@
+.mission {
+  width: 547px;
+  height: 702px;
+  line-height: 48px;
+  margin-left: 149px;
+}
+
+.mission h2 {
+  font-weight: 700;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.mission p {
+  width: 547px;
+  height: 237px;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #3c3c3c;
+}
+
+.mission figure {
+  width: 513px;
+  height: 342px;
+}
+
+.mission figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

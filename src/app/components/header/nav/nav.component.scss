@@ -1,0 +1,30 @@
+
+
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+
+  // color: #c64917;
+}
+li > * {
+  display: block;
+}
+app-button {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.btn {
+  width: 135px;
+  height: 51px;
+}
