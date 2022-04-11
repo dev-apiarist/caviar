@@ -1,7 +1,7 @@
-<div class="header flex items-center">
+<div class="header flex items-center justify-between">
   <app-nav></app-nav>
-  <div class="grid grid-cols-2">
-    <div class="search-icon flex border-b">
+  <div class="flex justify-between">
+    <div class="search-icon flex border-b border-black items-center mx-2">
       <img src="assets/icons/search.png" alt="" />
 
       <input
@@ -12,15 +12,18 @@
         class="bg-transparent text-black"
       />
     </div>
-    <div>
-      <div class="cart-icon">
-        <img
-          src="assets/icons/cart.png"
-          alt=""
-        />
-        <span class="text-white bg-red-600">0</span>
+    <div class="flex items-center" style="height: 33.83px">
+      <div class="cart-icon relative">
+        <img src="assets/icons/cart.png" alt="" class="mt-1" />
+        <span
+          class="text-white bg-red-600 absolute -top-3 right-0"
+          style="border-radius: 50%; padding: 1px 6px"
+          >0</span
+        >
       </div>
-      <img src="" alt="" />
+      <a routerLink="/Login" routerLinkActive="active" class="user">
+        <img src="assets/icons/account.png" alt="" />
+      </a>
     </div>
   </div>
 </div>

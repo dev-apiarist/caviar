@@ -1,4 +1,12 @@
 .footer {
   background: #f1bd6e;
-  height: 428px;
+  min-height: 428px;
+}
+.copyright {
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #3c3c3c;
 }

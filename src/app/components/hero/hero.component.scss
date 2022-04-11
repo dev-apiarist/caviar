@@ -16,10 +16,17 @@
 
 .hero p {
   font-family: "Open Sans Condensed";
-  font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 33px;
-
+  width: 560px;
   color: #3c3c3c;
+}
+
+app-button {
+  width: 182px;
+  height: 68.76px;
+  top: 67%;
+  bottom: 33%;
+  left: 0;
 }

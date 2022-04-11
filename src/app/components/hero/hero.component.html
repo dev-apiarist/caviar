@@ -1,16 +1,18 @@
-<div class="grid grid-cols-2 hero" style="margin-left: 189px">
-  <div class="grid grid-flow-row">
+<div @fade class="grid grid-cols-2 hero" style="margin-left: 169px">
+  <div class="relative">
     <h1>CAVIAR HONEY</h1>
     <div>
       <p class="text-base">
-        Caviar Honey is always raw, never filtered, and always straight from our
-        own beehives. We are proud to do all our own beekeeping to provide you
-        with the highest quality delicious honey!
+        <span class="font-bold" style="font-size: 22px"> Caviar Honey </span> is
+        always raw, never filtered, and always straight from our own beehives.
+        We are proud to do all our own beekeeping to provide you with the
+        highest quality delicious honey!
       </p>
       <app-button
         text="SHOP NOW"
         (btnClick)="show()"
-        
+        color=" #c64917"
+        class="absolute bottom-0 text-lg"
       ></app-button>
     </div>
   </div>

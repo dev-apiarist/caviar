@@ -2,13 +2,22 @@
   width: 1132px;
   height: 140px;
 
-  margin: 0px 99px 0px 209px;
+  margin: 0px 99px 0px 160px;
 }
 
 .search-icon {
+  height: 40.82px;
+}
+.cart-icon {
   width: 35.17px;
   height: 40.82px;
 }
-.cart-icon{
-  
+.user {
+  width: 23px;
+  height: 25px;
+}
+
+.active {
+  color: #c64917;
+  border-bottom: 1px solid #c64917;
 }

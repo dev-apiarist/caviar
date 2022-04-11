@@ -1,10 +1,8 @@
-  <app-header></app-header>
-  <!-- body -->
-  <app-hero></app-hero>
+<app-header></app-header>
+<!-- body -->
+<div [@routeAnimations]="prepareRoute(outlet)" class="relative h-full">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>
 
-  <app-section></app-section>
-
-  <app-newsletter></app-newsletter>
-
-  <!-- body-end -->
-  <app-footer></app-footer>
+<!-- body-end -->
+<app-footer></app-footer>

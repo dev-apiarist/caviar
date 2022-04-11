@@ -1,0 +1,36 @@
+<div class="login-header flex items-center justify-center">
+  <h1 class="text-white">MY ACCOUNT</h1>
+</div>
+<div class="min-h-max p-28 w-1/2">
+  <h1>LOGIN</h1>
+  <form
+    class="h-80 grid grid-flow-row"
+    [formGroup]="loginForm"
+    (ngSubmit)="onSubmit()"
+  >
+    <mat-form-field appearance="legacy">
+      <mat-label>Username or email address</mat-label>
+      <input
+        matInput
+        placeholder="someone@gmail.com"
+        required="true"
+        formControlName="email"
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="legacy">
+      <mat-label>Password</mat-label>
+      <input
+        matInput
+        placeholder=""
+        required="true"
+        formControlName="password"
+      />
+    </mat-form-field>
+    <div class="login-menu flex items-center justify-between">
+      <app-button text="LOG IN" color="#C64917"></app-button>
+      <mat-checkbox>Remember me</mat-checkbox>
+    </div>
+  </form>
+  <a href="">Forgot Password?</a>
+</div>

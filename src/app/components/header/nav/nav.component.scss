@@ -1,16 +1,14 @@
-
-
-
+nav {
+  width: 769px;
+  color: #3c3c3c;
+}
 nav ul li a {
   display: block;
-  padding: 10px;
   font-family: "Open Sans Condensed";
-  font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
-
-  // color: #c64917;
+  margin: 0 14px;
 }
 li > * {
   display: block;
@@ -27,4 +25,9 @@ app-button {
 .btn {
   width: 135px;
   height: 51px;
+}
+
+.active {
+  color: #c64917;
+  border-bottom: 1px solid #c64917;
 }

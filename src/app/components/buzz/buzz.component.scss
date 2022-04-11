@@ -1,7 +1,7 @@
 .buzz {
   width: 605px;
   height: 889px;
-  margin-left: 106px;
+  margin-left: 86px;
   padding: 33px 108px 0px 85px;
 }
 .buzz h3 {
@@ -12,7 +12,7 @@
   font-weight: 700;
 }
 .review-name {
-  line-height: 19.07px;
+  line-height: 32.68px;
 }
 .review-text {
   font-family: "Open Sans";
@@ -23,8 +23,31 @@
 
   color: #3c3c3c;
 }
-img {
+.buzz img {
   border-radius: 20px;
   width: 197px;
   height: 296px;
+}
+.quotes {
+  width: 75px;
+  height: 69.99px;
+  position: absolute;
+  left: -23%;
+  right: 100%;
+  top: -13%;
+}
+.quotes-2 {
+  width: 75px;
+  height: 69.99px;
+  position: absolute;
+  left: 80%;
+  right: 20;
+
+  top: -13%;
+}
+
+.quotes img,
+.quotes-2 img {
+  width: 100%;
+  height: 100%;
 }
