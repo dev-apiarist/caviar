@@ -4,8 +4,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 const routes: Routes = [
   { path: '', redirectTo: 'Home', pathMatch: 'full' },
-  { path: 'Home', component: HomeComponent ,data:{animation:'isRight'} },
-  { path: 'Login', component: LoginComponent ,data:{animation:'isLeft'}},
+  {
+    path: 'Home',
+    component: HomeComponent,
+
+    data: { animation: 'isRight' },
+  },
+  {
+    path: 'Login',
+    component: LoginComponent,
+
+    data: { animation: 'isLeft' },
+  },
 ];
 
 @NgModule({

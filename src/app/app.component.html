@@ -1,8 +1,5 @@
 <app-header></app-header>
-<!-- body -->
-<div [@routeAnimations]="prepareRoute(outlet)" class="relative h-full">
-  <router-outlet #outlet="outlet"></router-outlet>
+<div [@routeAnimations]="getRouteAnimationData()" class="relative">
+  <router-outlet></router-outlet>
 </div>
-
-<!-- body-end -->
 <app-footer></app-footer>
